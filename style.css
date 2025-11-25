@@ -56,7 +56,7 @@ section{
 }
 .btn:hover{
     letter-spacing: .2rem;
-    background: rgb(248, 250, 185);
+    background: rgb(45, 255, 3);
     transition: .5s ease;
 }
 .header{
@@ -234,47 +234,47 @@ font-size: 1.6rem;
 .menu .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-    gap: 2rem;
+   gap: 1rem;
 }
-.menu .box-container .box{
+.menu .box-container .boxs{
     width: 40rem;
-    height: 70rem;
-    padding: 10rem;
+    height: 50rem;
+    padding: 8rem;
     text-align:center;
     border: var(--border);
      border-radius: 2rem;
 }
-.menu .box-container .box img{
+.menu .box-container .boxs img{
     height: 10rem;
 }
-.menu .box-container .box h3{
+.menu .box-container .boxs h3{
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
     padding: 5rem 0;
    ;
 }
-.menu .box-container .box .Precio{
+.menu .box-container .boxs .Precio{
     color: rgb(248, 250, 185);
     font-size: 2rem;
     padding: 1rem 0;
 }
-.menu .box-container .box .Precio span{
+.menu .box-container .boxs .Precio span{
     color: rgb(255, 0, 0);
     font-size: 1.5rem;
     text-decoration: line-through;
 }
-.menu .box-container .box:hover{
+.menu .box-container .boxs:hover{
     background: rgb(248, 250, 185);
     transition: .8s ease;
 }
 
-.menu .box-container .box:hover > *{
+.menu .box-container .boxs:hover > *{
     color: var(--main-color);
 }
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-    gap: 2rem;
+    grid-template-rows: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1rem;
 }
 
 .products .box-container .box{
